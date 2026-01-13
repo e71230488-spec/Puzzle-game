@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Click Numbers in Order</h1>
+
+<p>Time: <span id="time">0</span> seconds</p>
+
+<div id="game"></div>
+<p id="message"></p>
+
+<!-- Restart button -->
+<button onclick="restartGame()">Restart Game</button>
+
+<!-- Level buttons -->
+<button onclick="setLevel(6)">Easy</button>
+<button onclick="setLevel(9)">Medium</button>
+<button onclick="setLevel(16)">Hard</button>
+
+<script src="script.js"></script>
+</body>
+</html>
